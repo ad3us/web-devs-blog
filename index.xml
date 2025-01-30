@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ad3us</title>
-    <link>http://localhost:1313/</link>
+    <link>https://ad3us.github.io/web-devs-blog/</link>
     <description>Recent content on ad3us</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 28 Jan 2025 18:42:42 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://ad3us.github.io/web-devs-blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>JS for &#34;Chaynicks&#34;: Variables</title>
-      <link>http://localhost:1313/posts/js-variables/</link>
+      <link>https://ad3us.github.io/web-devs-blog/posts/js-variables/</link>
       <pubDate>Tue, 28 Jan 2025 18:42:42 +0800</pubDate>
-      <guid>http://localhost:1313/posts/js-variables/</guid>
+      <guid>https://ad3us.github.io/web-devs-blog/posts/js-variables/</guid>
       <description>&lt;h2 id=&#34;types-of-variables&#34;&gt;Types of variables:&lt;/h2&gt;&#xA;&lt;p&gt;We can declare variables in JS using these 3 keywords: var, let and const.&lt;/p&gt;&#xA;&lt;h3 id=&#34;var-keyword&#34;&gt;var Keyword&lt;/h3&gt;&#xA;&lt;p&gt;This keyword has a function-scoped or globally-scoped behaviour:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#757575;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ec0000&#34;&gt;var&lt;/span&gt; y &lt;span style=&#34;color:#ec0000&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#008900&#34;&gt;5&lt;/span&gt;;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ec0000&#34;&gt;var&lt;/span&gt; y &lt;span style=&#34;color:#ec0000&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#008900&#34;&gt;15&lt;/span&gt;;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;console.log(y)&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;console.log(y)&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&#xA;&lt;pre&gt;&lt;code&gt;Output:&#xA;5&#xA;15&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;let-keyword&#34;&gt;let Keyword&lt;/h3&gt;&#xA;&lt;p&gt;The let keyword has block scope and cannot be re-declared in the same scope:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#757575;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ec0000&#34;&gt;let&lt;/span&gt; y &lt;span style=&#34;color:#ec0000&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#008900&#34;&gt;17&lt;/span&gt;;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;y &lt;span style=&#34;color:#ec0000&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#008900&#34;&gt;42&lt;/span&gt;;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;console.log(y)&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&#xA;&lt;pre&gt;&lt;code&gt;Output:&#xA;4&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;Here we can update the value of variable:&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#757575;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;y &lt;span style=&#34;color:#ec0000&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#008900&#34;&gt;42&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>About me</title>
-      <link>http://localhost:1313/about/</link>
+      <link>https://ad3us.github.io/web-devs-blog/about/</link>
       <pubDate>Sat, 05 Nov 2016 21:05:33 +0530</pubDate>
-      <guid>http://localhost:1313/about/</guid>
+      <guid>https://ad3us.github.io/web-devs-blog/about/</guid>
       <description>&lt;p&gt;Welcome to my corner of the web! 👋 I’m Yasin Dovletov, a driven computer science student at &lt;a href=&#34;https://en.xidian.edu.cn/&#34;&gt;&lt;strong&gt;Xidian University&lt;/strong&gt;&lt;/a&gt; and a passionate Junior Web-Developer on a mission to turn ideas into digital reality.&lt;/p&gt;&#xA;&lt;p&gt;As I navigate the dynamic world of technology, my academic journey at Xidian, a hub for innovation and cutting-edge research—fuels my curiosity for web development. Whether I’m diving into algorithms, crafting clean code, or exploring the latest frameworks, I thrive on bridging theoretical knowledge with practical, hands-on projects.&lt;/p&gt;</description>
     </item>
   </channel>
