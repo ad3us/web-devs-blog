@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>ad3us/posts/js-variables/</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="all,follow">
+    <meta name="googlebot" content="index,follow,snippet,archive">
+    <link rel="stylesheet" href="http://localhost:1313/hugo-theme-console/css/terminal-0.7.4.min.css">
+    <link rel="stylesheet" href="http://localhost:1313/hugo-theme-console/css/animate-4.1.1.min.css">
+    <link rel="stylesheet" href="http://localhost:1313/hugo-theme-console/css/console.css">
+    
+      <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <![endif]-->
+       <meta property="og:title" content="JS for &#34;Chaynicks&#34;: Variables" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://localhost:1313/posts/js-variables/" /><meta property="article:published_time" content="2025-01-28T18:42:42+08:00" />
+
+
+
+<meta name="twitter:title" content="JS for &#34;Chaynicks&#34;: Variables"/>
+<meta name="twitter:description" content="Types of variables:
+We can declare variables in JS using these 3 keywords: var, let and const.
+var Keyword
+This keyword has a function-scoped or globally-scoped behaviour:
+var y = 5;
+var y = 15;
+
+console.log(y)
+console.log(y)
+Output:
+5
+15
+
+
+let Keyword
+The let keyword has block scope and cannot be re-declared in the same scope:
+let y = 17;
+y = 42;
+
+console.log(y)
+Output:
+4
+
+Here we can update the value of variable:
+y = 42;"/>
+
+</head>
+<body class="terminal">
+    <div class="container">
+        <div class="terminal-nav">
+          <header class="terminal-logo">
+            <div class="logo terminal-prompt">
+              
+              
+              <a href="http://localhost:1313/" class="no-style ">ad3us</a>:~# 
+              <a href='http://localhost:1313/posts'>posts</a>/<a href='http://localhost:1313/posts/js-variables'>js-variables</a>/</div></header>
+          <nav class="terminal-menu">
+            <ul vocab="https://schema.org/" typeof="BreadcrumbList">
+                
+                <li><a href="http://localhost:1313/about/" typeof="ListItem">about/</a></li>
+                
+                <li><a href="http://localhost:1313/posts/" typeof="ListItem">posts/</a></li>
+                
+                <li><a href="http://localhost:1313/photos/" typeof="ListItem">photos/</a></li>
+                
+            </ul>
+          </nav>
+        </div>
+    </div>
+
+    <div class="container animated zoomIn fast" >
+        
+<h1>JS for &#34;Chaynicks&#34;: Variables</h1>
+
+Jan. 28, 2025
+
+
+<br/><br/>
+<h2 id="types-of-variables">Types of variables:</h2>
+<p>We can declare variables in JS using these 3 keywords: var, let and const.</p>
+<h3 id="var-keyword">var Keyword</h3>
+<p>This keyword has a function-scoped or globally-scoped behaviour:</p>
+<div class="highlight"><pre tabindex="0" style="color:#757575;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#ec0000">var</span> y <span style="color:#ec0000">=</span> <span style="color:#008900">5</span>;
+</span></span><span style="display:flex;"><span><span style="color:#ec0000">var</span> y <span style="color:#ec0000">=</span> <span style="color:#008900">15</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>console.log(y)
+</span></span><span style="display:flex;"><span>console.log(y)</span></span></code></pre></div>
+<pre><code>Output:
+5
+15
+</code></pre>
+<hr>
+<h3 id="let-keyword">let Keyword</h3>
+<p>The let keyword has block scope and cannot be re-declared in the same scope:</p>
+<div class="highlight"><pre tabindex="0" style="color:#757575;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#ec0000">let</span> y <span style="color:#ec0000">=</span> <span style="color:#008900">17</span>;
+</span></span><span style="display:flex;"><span>y <span style="color:#ec0000">=</span> <span style="color:#008900">42</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>console.log(y)</span></span></code></pre></div>
+<pre><code>Output:
+4
+</code></pre>
+<p>Here we can update the value of variable:
+<div class="highlight"><pre tabindex="0" style="color:#757575;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span>y <span style="color:#ec0000">=</span> <span style="color:#008900">42</span>;</span></span></code></pre></div></p>
+<p>If we redeclare it by using let keyword again we will get an error that this variable already has been declared:</p>
+<div class="highlight"><pre tabindex="0" style="color:#757575;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#ec0000">let</span> y <span style="color:#ec0000">=</span> <span style="color:#008900">17</span>;
+</span></span><span style="display:flex;"><span><span style="color:#ec0000">let</span> y <span style="color:#ec0000">=</span> <span style="color:#008900">42</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>console.log(y)</span></span></code></pre></div>
+<pre><code>Output:
+SyntaxError: Identifier 'y' has already been declared
+</code></pre>
+<hr>
+<h3 id="const-keyword">const Keyword</h3>
+<p>The const keyword declares variables that cannot be reassigned and it&rsquo;s also block-scoped:</p>
+<div class="highlight"><pre tabindex="0" style="color:#757575;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#ec0000">const</span> y <span style="color:#ec0000">=</span> <span style="color:#008900">17</span>;
+</span></span><span style="display:flex;"><span>console.log(y)</span></span></code></pre></div>
+<pre><code>Output:
+17
+</code></pre>
+<p>And if we&rsquo;ll try to reassign the value:</p>
+<div class="highlight"><pre tabindex="0" style="color:#757575;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#ec0000">const</span> y <span style="color:#ec0000">=</span> <span style="color:#008900">17</span>;
+</span></span><span style="display:flex;"><span>y <span style="color:#ec0000">=</span> <span style="color:#008900">20</span>;
+</span></span><span style="display:flex;"><span>console.log(y)</span></span></code></pre></div>
+<p>We will get an error:</p>
+<pre><code>Output:
+Type Error: Assignment to constant variable.
+</code></pre>
+
+
+
+        <div class="footer">
+    Made with 💚 by - Yasin <a href="https://github.com/ad3us/">"ad3us"</a> Dovletov.
+</div>
+
+    </div>
+  </body>
+</html>
